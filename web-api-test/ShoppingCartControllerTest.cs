@@ -100,5 +100,22 @@ namespace web_api_test
             Assert.IsType<CreatedAtActionResult>(action);
             Assert.Equal("Fox", item.Name);
         }
+
+        [Fact]
+        public void Remove_NotExistingObjectPassed_ReturnsNotFoundResponse()
+        {
+            var id = 99;
+
+            var result = _controller.Delete(id);
+
+            Assert.IsType<NotFoundResult>(result);
+        }
+
+        [Fact]
+        public void Remove_ExistingObjectPassed_ReturnOkResponse()
+        {
+            var action = _controller.Delete(1);
+            Assert.Equal(2, (_service.GetAll() as List<ShoppingItem>).Count);
+        }
     }
 }

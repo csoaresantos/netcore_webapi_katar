@@ -1,23 +1,30 @@
 ﻿<Properties StartupConfiguration="{08E49011-3002-4B1B-83E4-0020A2C07C4F}|Default">
   <MonoDevelop.Ide.ItemProperties.interview__katar PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="interview_katar/Controllers/ShoppingCartController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="web-api-test/ShoppingCartControllerTest.cs">
     <Files>
-      <File FileName="web-api-test/ShoppingCartControllerTest.cs" Line="65" Column="30" />
-      <File FileName="interview_katar/Controllers/ShoppingCartController.cs" Line="1" Column="1" />
+      <File FileName="web-api-test/ShoppingCartControllerTest.cs" Line="118" Column="40" />
+      <File FileName="web-api-test/Services/ShoppingCartServiceFake.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="interview_katar" expanded="True">
             <Node name="interview_katar" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="ShoppingCartController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
             <Node name="web-api-test" expanded="True">
               <Node name="Services" expanded="True" />
+              <Node name="ShoppingCartControllerTest.cs" selected="True" />
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="interview_katar" expanded="True" />
         </State>
       </Pad>
     </Pads>
